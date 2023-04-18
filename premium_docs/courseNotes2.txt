@@ -1,0 +1,20 @@
+Array (definition) - special type of 'object' and a data structure in JS that stores multiple values
+the contents/values in an array are called - elements
+0 based  index - meaning index starts at 0
+
+Objects:
+has key:value pairs
+keys SHOULD follow camelCase but if you want to use spaces, it's best to put the key in quotes ''
+you can access the value with dot or square bracket notation
+ex.
+
+const person = {
+	firstName: 'Ben',
+	'Last Name': 'Calef'
+}
+
+then, to call those you would go:
+	console.log(person.firstName);
+	or
+	console.log(person['Last Name']);
+
